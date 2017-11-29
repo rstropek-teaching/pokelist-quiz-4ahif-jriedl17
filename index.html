@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<body onload="setHtmlPage();">
+    <h1>Pokemon List</h1>
+
+    <div id="pokemons">
+    </div>
+
+    <div id="pokemonDetails">
+        <output style="font-weight:bold"> Details: </output>
+        <br></br>
+        <output id="pokeName"></output>
+        <br></br>
+        <output id="pokeWeight"></output>
+        <br></br>
+        <img id="pokeImage" />
+        <br></br>
+        <output id="pokeAbilities"></output>
+    </div>
+
+    <button type="button" id="btnPrev" onclick="pageChange('previous');">Previous</button>
+    <button type="button" id="btnNext" onclick="pageChange('next');">Next</button>
+</body>
+
+</html>
+
+<script src="node_modules\jquery\dist\jquery.js"></script>
+<script src="index.js"></script>
